@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.top {
+    background-color: rgb(78, 78, 225);
+    /* height: 50px; */
+}
+
+#call {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: white;
+}
+
+#anchor {
+    position: absolute;
+    top: 3px;
+    right: 30px;
+}
+
+#anchor a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.bottom {
+    height: 80px;
+    background-color: lavender;
+    position: relative;
+}
+
+.bottom img {
+    width: 80px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+nav ul {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(128, 124, 124);
+}
+
+.slider {
+    height: 400px;
+}
+
+#slider {
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+    margin: 30px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    30% {
+        left: 0;
+    }
+
+    33% {
+        left: -100%;
+    }
+
+    63% {
+        left: -100%;
+    }
+
+    66% {
+        left: -200%;
+    }
+
+    95% {
+        left: -200%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+#slider figure {
+    width: 300%;
+    position: relative;
+    animation: 9s slider infinite;
+    top: 20px;
+    left: 10px;
+
+}
+
+#slider figure img {
+    width: 33.3%;
+    float: left;
+}
+
+article {
+    width: 600px;
+    height: 400px;
+    text-align: justify;
+    position: absolute;
+    top: 180px;
+    right: 200px;
+}
+
+article h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    color: rgb(128, 124, 124);
+}
+
+article p {
+    padding-left: 20px;
+}
+
+.aboutbtn {
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.background {
+    background-color: lavender;
+    height: 400px;
+}
+
+.background .images {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.background .images img {
+    width: 500px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.category {
+    margin-top: 80px;
+    color: blue;
+}
+
+.vm {
+    position: absolute;
+    right: 50px;
+    top: 960px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.all {
+    /* height: 600px; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    /* border: 1px solid blue; */
+}
+
+.all .item1 img {
+    height: 400px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.all .item1 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.all .item2 img {
+    height: 400px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.all .item2 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.all .item3 img {
+    height: 400px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.all .item3 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.all .item4 img {
+    height: 400px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.all .item4 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.titleform {
+    margin-top: 50px;
+    display: flex;
+    background-color: lavender;
+}
+
+.title {
+    width: 720px;
+    height: 400px;
+}
+
+.title h2 {
+    color: blue;
+    margin-top: 50px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.form {
+    width: 630px;
+    height: 300px;
+    border: 1px solid blue;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.form h2 {
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+}
+
+form {
+    padding: 25px;
+    padding-left: 140px;
+}
+
+label {
+    padding-right: 20px;
+}
+
+input {
+    width: 200px;
+}
+
+textarea {
+    margin-left: 70px;
+}
+
+.submit {
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 135px;
+    border-radius: 10px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    /* text-align: center; */
+    color: white;
+    height: 50px;
+}
+
+.icon {
+    padding-left: 50px;
+}
+
+.icon i {
+    padding-right: 20px;
+}
